@@ -95,7 +95,7 @@ async def start_command(client: Client, message: Message):
         finally:
             await temp_msg.delete()
  
-        codeflix_msgs = []
+        mrghostsx_msgs = []
 
         for msg in messages:
             original_caption = msg.caption.html if msg.caption else ""
@@ -111,7 +111,7 @@ async def start_command(client: Client, message: Message):
                     protect_content=PROTECT_CONTENT
                 )
                 await asyncio.sleep(0.5)
-                codeflix_msgs.append(snt_msg)
+                mrghostsx_msgs.append(snt_msg)
             except FloodWait as e:
                 await asyncio.sleep(e.x)
                 copied_msg = await msg.copy(
@@ -121,7 +121,7 @@ async def start_command(client: Client, message: Message):
                     reply_markup=reply_markup,
                     protect_content=PROTECT_CONTENT
                 )
-                codeflix_msgs.append(copied_msg)
+                mrghostsx_msgs.append(copied_msg)
             except:
                 pass
 
@@ -132,7 +132,7 @@ async def start_command(client: Client, message: Message):
 
             await asyncio.sleep(FILE_AUTO_DELETE)
 
-            for snt_msg in codeflix_msgs:    
+            for snt_msg in mrghostsx_msgs:    
                 if snt_msg:
                     try:    
                         await snt_msg.delete()  
@@ -242,7 +242,7 @@ async def not_joined(client: Client, message: Message):
                 except Exception as e:
                     print(f"Error with chat {chat_id}: {e}")
                     return await temp.edit(
-                        f"<b><i>! Eʀʀᴏʀ, Cᴏɴᴛᴀᴄᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴏ sᴏʟᴠᴇ ᴛʜᴇ ɪssᴜᴇs @SmartEdith_Bot</i></b>\n"
+                        f"<b><i>! Eʀʀᴏʀ, Cᴏɴᴛᴀᴄᴛ ᴅᴇᴠᴇʟᴏᴘᴇʀ ᴛᴏ sᴏʟᴠᴇ ᴛʜᴇ ɪssᴜᴇs @@SmartEdith_Bot_1888</i></b>\n"
                         f"<blockquote expandable><b>Rᴇᴀsᴏɴ:</b> {e}</blockquote>"
                     )
 
