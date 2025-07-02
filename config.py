@@ -20,7 +20,7 @@ DB_URI = os.environ.get("DATABASE_URL", "")
 DB_NAME = os.environ.get("DATABASE_NAME", "VideoWalaBot")
 #--------------------------------------------
 FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "0"))  # 0 means no expiry
-BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/MrGhostsx")
+BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/WebVerseHub_support")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "200"))
 #--------------------------------------------
 START_PIC = os.environ.get("START_PIC", "https://i.ibb.co/dw0fhXVG/photo-2025-07-02-18-16-38.jpg")
@@ -76,10 +76,10 @@ USER_REPLY_TEXT = "ʙᴀᴋᴋᴀ ! ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ꜱᴇɴᴘ
 
 #==========================(BUY PREMIUM)====================#
 
-OWNER_TAG = os.environ.get("OWNER_TAG", "helpdesk_chatsbot")
+OWNER_TAG = os.environ.get("OWNER_TAG", "WebVerseHub_support")
 UPI_ID = os.environ.get("UPI_ID", "Use QR for payment")
 QR_PIC = os.environ.get("QR_PIC", "https://i.ibb.co/bjssNRD3/Vehicle-QR.png")
-SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"t.me/helpdesk_chatsbot")
+SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"t.me/WebVerseHub_support")
 #--------------------------------------------
 #Time and its price
 #7 Days
