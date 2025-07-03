@@ -1,15 +1,3 @@
-# Don't Remove Credit @Tech_Shreyansh29, @MrGhostsx
-# Ask Doubt on telegram @TechS_Shreyansh2
-#
-# Copyright (C) 2025 by MrGhostsx@Github, < https://github.com/TechyShreyansh>.
-#
-# This file is part of < https://github.com/TechyShreyansh > project,
-# and is released under the MIT License.
-# Please see < https://github.com/TechyShreyansh/blob/master/LICENSE >
-#
-# All rights reserved.
-#
-
 import asyncio
 import os
 import random
@@ -231,15 +219,7 @@ async def start_command(client: Client, message: Message):
             message_effect_id=5104841245755180586)  # 🔥
         
         return
-
-
-
-#=====================================================================================##
-# Don't Remove Credit @TechS_Shreyansh2, @MrGhostsx
-# Ask Doubt on telegram @SmartEdith_Bot
-
-
-
+        
 # Create a global dictionary to store chat data
 chat_data_cache = {}
 
