@@ -1,15 +1,3 @@
-# Don't Remove Credit @Tech_Shreyansh29, @MrGhostsx
-# Ask Doubt on telegram @TechS_Shreyansh2
-#
-# Copyright (C) 2025 by MrGhostsx@Github, < https://github.com/TechyShreyansh>.
-#
-# This file is part of < https://github.com/TechyShreyansh > project,
-# and is released under the MIT License.
-# Please see < https://github.com/TechyShreyansh/blob/master/LICENSE >
-#
-# All rights reserved.
-#
-
 from pyrogram import Client 
 from bot import Bot
 from config import *
@@ -50,18 +38,6 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             ])
         )
 
-
-# Don't Remove Credit @Tech_Shreyansh29, @MrGhostsx
-# Ask Doubt on telegram @TechS_Shreyansh2
-#
-# Copyright (C) 2025 by MrGhostsx@Github, < https://github.com/TechyShreyansh>.
-#
-# This file is part of < https://github.com/TechyShreyansh > project,
-# and is released under the MIT License.
-# Please see < https://github.com/TechyShreyansh/blob/master/LICENSE >
-#
-# All rights reserved.
-#
 
 
     elif data == "premium":
@@ -157,15 +133,3 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             "sᴇʟᴇᴄᴛ ᴀ ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴛᴏɢɢʟᴇ ɪᴛs ғᴏʀᴄᴇ-sᴜʙ ᴍᴏᴅᴇ:",
             reply_markup=InlineKeyboardMarkup(buttons)
         )
-
-# Don't Remove Credit @Tech_Shreyansh29, @MrGhostsx
-# Ask Doubt on telegram @TechS_Shreyansh2
-#
-# Copyright (C) 2025 by MrGhostsx@Github, < https://github.com/TechyShreyansh>.
-#
-# This file is part of < https://github.com/TechyShreyansh > project,
-# and is released under the MIT License.
-# Please see < https://github.com/TechyShreyansh/blob/master/LICENSE >
-#
-# All rights reserved.
-#
