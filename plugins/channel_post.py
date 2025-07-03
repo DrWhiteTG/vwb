@@ -1,15 +1,3 @@
-# Don't Remove Credit @Tech_Shreyansh29, @MrGhostsx
-# Ask Doubt on telegram @TechS_Shreyansh2
-#
-# Copyright (C) 2025 by MrGhostsx@Github, < https://github.com/TechyShreyansh>.
-#
-# This file is part of < https://github.com/TechyShreyansh > project,
-# and is released under the MIT License.
-# Please see < https://github.com/TechyShreyansh/blob/master/LICENSE >
-#
-# All rights reserved.
-#
-
 import asyncio
 from pyrogram import filters, Client
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
@@ -42,15 +30,3 @@ async def channel_post(client: Client, message: Message):
 
     if not DISABLE_CHANNEL_BUTTON:
         await post_message.edit_reply_markup(reply_markup)
-
-# Don't Remove Credit @Tech_Shreyansh29, @MrGhostsx
-# Ask Doubt on telegram @TechS_Shreyansh2
-#
-# Copyright (C) 2025 by MrGhostsx@Github, < https://github.com/TechyShreyansh>.
-#
-# This file is part of < https://github.com/TechyShreyansh > project,
-# and is released under the MIT License.
-# Please see < https://github.com/TechyShreyansh/blob/master/LICENSE >
-#
-# All rights reserved.
-#
