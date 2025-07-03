@@ -73,20 +73,6 @@ class Bot(Client):
 
         self.set_parse_mode(ParseMode.HTML)
         self.LOGGER(__name__).info(f"Bot Running..!\n\nCreated by \nhttps://t.me/webversehub")
-        self.LOGGER(__name__).info(f"""       
-
- _   .-')    _  .-')               ('-. .-.               .-')    .-') _    
-( '.( OO )_ ( \( -O )             ( OO )  /              ( OO ). (  OO) )   
- ,--.   ,--.),------.   ,----.    ,--. ,--. .-'),-----. (_)---\_)/     '._  
- |   `.'   | |   /`. ' '  .-./-') |  | |  |( OO'  .-.  '/    _ | |'--...__) 
- |         | |  /  | | |  |_( O- )|   .|  |/   |  | |  |\  \:` `. '--.  .--' 
- |  |'.'|  | |  |_.' | |  | .--, \|       |\_) |  |\|  | '..`''.)   |  |    
- |  |   |  | |  .  '.'(|  | '. (_/|  .-.  |  \ |  | |  |.-._)   \   |  |    
- |  |   |  | |  |\  \  |  '--'  | |  | |  |   `'  '-'  '\       /   |  |    
- `--'   `--' `--' '--'  `------'  `--' `--'     `-----'  `-----'    `--'  
- 
-                                          """)
-
         self.set_parse_mode(ParseMode.HTML)
         self.username = usr_bot_me.username
         self.LOGGER(__name__).info(f"Bot Running..! Made by @WebVerseHub_support")   
