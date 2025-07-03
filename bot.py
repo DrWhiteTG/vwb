@@ -1,15 +1,3 @@
-# Don't Remove Credit @Tech_Shreyansh29, @MrGhostsx
-# Ask Doubt on telegram @TechS_Shreyansh2
-#
-# Copyright (C) 2025 by MrGhostsx@Github, < https://github.com/TechyShreyansh>.
-#
-# This file is part of < https://github.com/TechyShreyansh > project,
-# and is released under the MIT License.
-# Please see < https://github.com/TechyShreyansh/blob/master/LICENSE >
-#
-# All rights reserved.
-#
-
 from aiohttp import web
 from plugins import web_server
 import asyncio
@@ -80,11 +68,11 @@ class Bot(Client):
         except Exception as e:
             self.LOGGER(__name__).warning(e)
             self.LOGGER(__name__).warning(f"Make Sure bot is Admin in DB Channel, and Double check the CHANNEL_ID Value, Current Value {CHANNEL_ID}")
-            self.LOGGER(__name__).info("\nBot Stopped. Join https://t.me/Tech_Shreyansh1 for support")
+            self.LOGGER(__name__).info("\nBot Stopped. Join https://t.me/webversehub for support")
             sys.exit()
 
         self.set_parse_mode(ParseMode.HTML)
-        self.LOGGER(__name__).info(f"Bot Running..!\n\nCreated by \nhttps://t.me/Tech_Shreyansh1")
+        self.LOGGER(__name__).info(f"Bot Running..!\n\nCreated by \nhttps://t.me/webversehub")
         self.LOGGER(__name__).info(f"""       
 
  _   .-')    _  .-')               ('-. .-.               .-')    .-') _    
@@ -101,7 +89,7 @@ class Bot(Client):
 
         self.set_parse_mode(ParseMode.HTML)
         self.username = usr_bot_me.username
-        self.LOGGER(__name__).info(f"Bot Running..! Made by @HelpDesk_ChatsBot")   
+        self.LOGGER(__name__).info(f"Bot Running..! Made by @WebVerseHub_support")   
 
         # Start Web Server
         app = web.AppRunner(await web_server())
@@ -109,7 +97,7 @@ class Bot(Client):
         await web.TCPSite(app, "0.0.0.0", PORT).start()
 
 
-        try: await self.send_message(OWNER_ID, text = f"<b><blockquote> Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ by @HelpDesk_ChatsBot</blockquote></b>")
+        try: await self.send_message(OWNER_ID, text = f"<b><blockquote> Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ by @WebVerseHub_support</blockquote></b>")
         except: pass
 
     async def stop(self, *args):
@@ -127,15 +115,3 @@ class Bot(Client):
             self.LOGGER(__name__).info("Shutting down...")
         finally:
             loop.run_until_complete(self.stop())
-
-# Don't Remove Credit @Tech_Shreyansh29, @MrGhostsx
-# Ask Doubt on telegram @TechS_Shreyansh2
-#
-# Copyright (C) 2025 by MrGhostsx@Github, < https://github.com/TechyShreyansh>.
-#
-# This file is part of < https://github.com/TechyShreyansh > project,
-# and is released under the MIT License.
-# Please see < https://github.com/TechyShreyansh/blob/master/LICENSE >
-#
-# All rights reserved.
-#
