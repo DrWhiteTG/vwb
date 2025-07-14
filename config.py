@@ -27,8 +27,8 @@ START_PIC = os.environ.get("START_PIC", "https://i.ibb.co/dw0fhXVG/photo-2025-07
 FORCE_PIC = os.environ.get("FORCE_PIC", "https://i.ibb.co/60Qn6zR0/images.png")
 
 #--------------------------------------------
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "atglinks.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "f113d19870134940e0ab64e13eded4024e7c5021")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "download.primemods.xyz")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "d664fa6c2ed97127ce94fe50af769bf33326a1d6")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 21600)) # Add time in seconds
 TUT_VID = os.environ.get("TUT_VID","https://t.me/webversehub/5")
 
