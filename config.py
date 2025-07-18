@@ -29,8 +29,8 @@ FORCE_PIC = os.environ.get("FORCE_PIC", "https://i.ibb.co/60Qn6zR0/images.png")
 #--------------------------------------------
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "download.primemods.xyz")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "d664fa6c2ed97127ce94fe50af769bf33326a1d6")
-VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 21600)) # Add time in seconds
-TUT_VID = os.environ.get("TUT_VID","https://t.me/webversehub/5")
+VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 43200)) # Add time in seconds
+TUT_VID = os.environ.get("TUT_VID","https://t.me/how_to_downloadsss/61")
 
 #--------------------------------------------
 
@@ -78,7 +78,7 @@ USER_REPLY_TEXT = "ʙᴀᴋᴋᴀ ! ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ꜱᴇɴᴘ
 
 OWNER_TAG = os.environ.get("OWNER_TAG", "WebVerseHub_support")
 UPI_ID = os.environ.get("UPI_ID", "Use QR for payment")
-QR_PIC = os.environ.get("QR_PIC", "https://i.ibb.co/bjssNRD3/Vehicle-QR.png")
+QR_PIC = os.environ.get("QR_PIC", "https://i.ibb.co/DDpXW9gm/photo-2025-07-18-09-27-30.jpg")
 SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"t.me/WebVerseHub_support")
 #--------------------------------------------
 #Time and its price
