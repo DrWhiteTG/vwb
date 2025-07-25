@@ -77,8 +77,8 @@ USER_REPLY_TEXT = "ʙᴀᴋᴋᴀ ! ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ꜱᴇɴᴘ
 #==========================(BUY PREMIUM)====================#
 
 OWNER_TAG = os.environ.get("OWNER_TAG", "WebVerseHub_support")
-UPI_ID = os.environ.get("UPI_ID", "Use QR for payment")
-QR_PIC = os.environ.get("QR_PIC", "https://i.ibb.co/DDpXW9gm/photo-2025-07-18-09-27-30.jpg")
+UPI_ID = os.environ.get("UPI_ID", "akkusjv@okhdfcbank")
+QR_PIC = os.environ.get("QR_PIC", "https://i.ibb.co/LhHg9Mgg/photo-2025-07-25-23-08-08.jpg")
 SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"t.me/WebVerseHub_support")
 #--------------------------------------------
 #Time and its price
