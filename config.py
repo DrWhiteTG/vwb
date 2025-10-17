@@ -11,7 +11,7 @@ API_HASH = os.environ.get("API_HASH", "6279f24cbb7082a54c4ce8554f4d1ad8") #Your 
 #--------------------------------------------
 
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002816848112")) #Your db channel Id
-OWNER = os.environ.get("OWNER", "batman_png") # Owner username without @
+OWNER = os.environ.get("OWNER", "bearserverbot") # Owner username without @
 OWNER_ID = int(os.environ.get("OWNER_ID", "7610977414")) # Owner id
 #--------------------------------------------
 PORT = os.environ.get("PORT", "8100")
@@ -29,14 +29,14 @@ FORCE_PIC = os.environ.get("FORCE_PIC", "https://i.ibb.co/60Qn6zR0/images.png")
 #--------------------------------------------
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "download.primemods.xyz")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "d664fa6c2ed97127ce94fe50af769bf33326a1d6")
-VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 43200)) # Add time in seconds
+VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 TUT_VID = os.environ.get("TUT_VID","https://t.me/how_to_downloadsss/61")
 
 #--------------------------------------------
 
 #--------------------------------------------
 HELP_TXT = "<b><blockquote>ᴛʜɪs ɪs ᴍᴏᴠɪᴇ sᴜᴘᴘʟɪᴇʀ ʙᴏᴛ ᴡᴏʀᴋ ғᴏʀ @webversehub\n\n❏ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs\n├/start : sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ\n├/about : ᴏᴜʀ Iɴғᴏʀᴍᴀᴛɪᴏɴ\n└/help : ʜᴇʟᴘ ʀᴇʟᴀᴛᴇᴅ ʙᴏᴛ\n\n sɪᴍᴘʟʏ ᴄʟɪᴄᴋ ᴏɴ ʟɪɴᴋ ᴀɴᴅ sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ ᴊᴏɪɴ ʙᴏᴛʜ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ ᴛʜᴀᴛs ɪᴛ.....!\n\n ᴅᴇᴠᴇʟᴏᴘᴇᴅ ʙʏ <a href=https://t.me/webversehub>ᴡᴇʙᴠᴇʀsᴇʜᴜʙ</a></blockquote></b>"
-ABOUT_TXT = "<b><blockquote>◈ ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/webversehub>ᴡᴇʙᴠᴇʀsᴇʜᴜʙ</a>\n◈ ꜰᴏᴜɴᴅᴇʀ ᴏꜰ : <a href=https://t.me/bear_server>ʙᴇᴀʀsᴇʀᴠᴇʀ</a></blockquote></b>"
+ABOUT_TXT = "<b><blockquote>◈ ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/webversehub>ᴡᴇʙᴠᴇʀsᴇʜᴜʙ</a>\n◈ ꜰᴏᴜɴᴅᴇʀ ᴏꜰ : <a href=https://t.me/bearserverbot>ʙᴇᴀʀsᴇʀᴠᴇʀ</a></blockquote></b>"
 #--------------------------------------------
 #--------------------------------------------
 START_MSG = os.environ.get("START_MESSAGE", "<b>ʜᴇʟʟᴏ {first}\n\n<blockquote>ɪ ᴀᴍ ᴍᴏᴠɪᴇ sʜᴀʀɪɴɢ ʙᴏᴛ. ɪɴ ᴀssᴏᴄɪᴀᴛɪᴏɴ ᴡɪᴛʜ @webversehub.</blockquote></b>")
